@@ -1,0 +1,6 @@
+/*Create h tag 1 to 5*/
+@for $var from 1 to 6 {
+    h#{$var} {
+        font-size: #{$var}px;
+    }
+}

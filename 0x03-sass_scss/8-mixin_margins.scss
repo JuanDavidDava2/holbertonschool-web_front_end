@@ -1,0 +1,11 @@
+/* Mixin the righ and left margin */
+@mixin margins($value) {
+    margin-left: $value;
+    margin-right: $value;
+}
+body {
+    @include margins(10px);
+}
+div {
+    @include margins(15px);
+}
